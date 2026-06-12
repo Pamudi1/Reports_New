@@ -1,0 +1,10 @@
+<odoo>
+    <report
+        id="action_sales_report"
+        model="sale.order"
+        string="Sales Custom Report"
+        report_type="qweb-pdf"
+        name="custom_reports.sales_report_template"
+        file="custom_reports.sales_report_template"
+    />
+</odoo>
